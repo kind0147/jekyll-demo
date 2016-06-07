@@ -1,2 +1,3 @@
 baseurl: /jekyll_demo
-permalink: /:yearmonth-:month-:day/:title.html
+permalink: /:year-:month-:day/:title.html
+url: http://localhost:4000
