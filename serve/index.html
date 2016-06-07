@@ -1,11 +1,19 @@
-　　---
-　　layout: default
-　　title: 我的Blog
-　　---
-　　<h2>{{ page.title }}</h2>
-　　<p>最新文章</p>
-　　<ul>
-　　　　{% for post in site.posts %}
-　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　　　　{% endfor %}
-　　</ul>
+<!DOCTYPE html>
+<html>
+<head>
+　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+　　　　<title>我的Blog</title>
+</head>
+<body>
+
+　　　　<h2>我的Blog</h2>
+<p>最新文章</p>
+<ul>
+　　　　
+　　　　<li>07 Jun 2016 <a href="/jekyll_demo/2016-06-07/hello-world.html">你好，世界</a></li>
+　　　　
+</ul>
+
+
+</body>
+</html>

@@ -1,0 +1,2 @@
+baseurl: /jekyll_demo
+permalink: /:yearmonth-:month-:day/:title.html
